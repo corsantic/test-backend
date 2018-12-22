@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.etiya.project.domain</OriginalElement>
+  <nodes>
+    <node x="463.0" y="156.0">com.etiya.project.domain.Person</node>
+    <node x="240.0" y="167.0">com.etiya.project.domain.ToolType</node>
+    <node x="119.40185185185186" y="356.0">com.etiya.project.domain.Tool</node>
+    <node x="0.0" y="123.0">com.etiya.project.domain.Maintenance</node>
+    <node x="373.13148148148144" y="0.0">com.etiya.project.domain.BaseEntity</node>
+    <node x="251.56851851851854" y="589.0">com.etiya.project.domain.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.etiya.project.domain.Maintenance" target="com.etiya.project.domain.BaseEntity">
+      <point x="0.0" y="-91.5" />
+      <point x="110.0" y="93.0" />
+      <point x="388.23148148148147" y="93.0" />
+      <point x="-60.39999999999998" y="36.5" />
+    </edge>
+    <edge source="com.etiya.project.domain.Tool" target="com.etiya.project.domain.BaseEntity">
+      <point x="106.5" y="-91.5" />
+      <point x="367.90185185185186" y="331.0" />
+      <point x="452.5" y="331.0" />
+      <point x="452.5" y="103.0" />
+      <point x="448.63148148148144" y="103.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="com.etiya.project.domain.User" target="com.etiya.project.domain.Person">
+      <point x="83.6" y="-58.5" />
+      <point x="439.66851851851857" y="569.0" />
+      <point x="572.5333333333333" y="569.0" />
+      <point x="572.5333333333333" y="331.0" />
+      <point x="612.25" y="331.0" />
+      <point x="49.75" y="58.5" />
+    </edge>
+    <edge source="com.etiya.project.domain.ToolType" target="com.etiya.project.domain.BaseEntity">
+      <point x="0.0" y="-47.5" />
+      <point x="341.0" y="103.0" />
+      <point x="418.43148148148146" y="103.0" />
+      <point x="-30.19999999999999" y="36.5" />
+    </edge>
+    <edge source="com.etiya.project.domain.Tool" target="com.etiya.project.domain.ToolType">
+      <point x="35.5" y="-91.5" />
+      <point x="296.90185185185186" y="331.0" />
+      <point x="341.0" y="331.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="com.etiya.project.domain.Person" target="com.etiya.project.domain.BaseEntity">
+      <point x="49.75" y="-58.5" />
+      <point x="612.25" y="93.0" />
+      <point x="509.0314814814814" y="93.0" />
+      <point x="60.39999999999998" y="36.5" />
+    </edge>
+    <edge source="com.etiya.project.domain.Tool" target="com.etiya.project.domain.Maintenance">
+      <point x="-106.5" y="-91.5" />
+      <point x="154.90185185185186" y="331.0" />
+      <point x="55.0" y="331.0" />
+      <point x="-55.0" y="91.5" />
+    </edge>
+    <edge source="com.etiya.project.domain.Tool" target="com.etiya.project.domain.User">
+      <point x="94.66666666666669" y="91.5" />
+      <point x="0.0" y="-58.5" />
+    </edge>
+    <edge source="com.etiya.project.domain.Maintenance" target="com.etiya.project.domain.Tool">
+      <point x="55.0" y="91.5" />
+      <point x="165.0" y="331.0" />
+      <point x="225.90185185185186" y="331.0" />
+      <point x="-35.5" y="-91.5" />
+    </edge>
+    <edge source="com.etiya.project.domain.User" target="com.etiya.project.domain.Tool">
+      <point x="-83.60000000000002" y="-58.5" />
+      <point x="272.4685185185185" y="569.0" />
+      <point x="166.73518518518517" y="569.0" />
+      <point x="-94.66666666666669" y="91.5" />
+    </edge>
+  </edges>
+  <settings layout="Hıerarchıc Group" zoom="0.8" x="438.5" y="362.1250000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
